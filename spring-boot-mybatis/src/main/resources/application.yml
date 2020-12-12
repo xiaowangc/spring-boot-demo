@@ -1,0 +1,17 @@
+server:
+  port: 8050
+
+spring:
+  datasource:
+    db1:
+      # 这里使用jdbc-url 而不用url
+      jdbc-url: jdbc:mysql://localhost:3306/springboot_test1?serverTimezone=CST
+      password: 123.com
+      username: root
+    db2:
+      #springboot_test2作为备库
+      jdbc-url: jdbc:mysql://localhost:3306/springboot_test2?serverTimezone=CST
+      password: 123.com
+      username: root
+
+

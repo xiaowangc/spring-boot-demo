@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>员工页面</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}">
+</head>
+<body>
+<h4 class="container">中餐厅人员表</h4>
+<br>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>名字</th>
+            <th>角色</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="guest : ${guestList}" >
+            <td th:text="${guest.name}">name</td>
+            <td th:text="${guest.role}">role</td>
+        </tr>
+    </tbody>
+    
+</table>
+
+<div class="form-group">
+    <div class="col-sm-2 control-label">
+        <a th:href="@{/guest/toAdd}" class="btn btn-info" >添加</a>
+    </div>
+</div>
+
+</body>
+</html>

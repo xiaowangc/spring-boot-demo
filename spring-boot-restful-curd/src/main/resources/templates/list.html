@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>员工页面</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}">
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.4.1/jquery.js}"></script>
+
+
+</head>
+<body>
+<h4 class="container">中餐厅人员表</h4>
+<br>
+<table class="table table-hover">
+    <thead>
+        <tr>
+            <th>名字</th>
+            <th>角色</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="guest : ${guestList}" >
+            <td th:text="${guest.name}">name</td>
+            <td th:text="${guest.role}">role</td>
+            <td class="col-sm-2">
+                <a th:href="@{/guest/toUpdate/} + ${guest.name}" class="btn btn-info">编辑</a>
+            </td>
+            <td class="col-sm-2">
+                <button th:attr="del_url=@{/guest/} + ${guest.name}" name="del_btn">删除</button>
+            </td>
+        </tr>
+    </tbody>
+
+</table>
+
+<div class="form-group">
+    <div class="col-sm-2 control-label">
+        <a th:href="@{/guest/toAdd}" class="btn btn-info" >添加</a>
+    </div>
+</div>
+
+<form id="del_form" method="post">
+    <input type="hidden" name="_method" value="delete">
+</form>
+<script>
+    $(function () {
+        $("button[name='del_btn']").click(function () {
+            $("#del_form").prop("action",$(this).attr('del_url')).submit();
+        });
+    });
+</script>
+</body>
+</html>

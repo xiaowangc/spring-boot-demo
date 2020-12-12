@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="spring-boot-helloword-1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring-boot-helloword/target/spring-boot-helloword-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/spring-boot-helloword/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

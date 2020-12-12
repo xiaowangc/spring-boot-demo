@@ -1,0 +1,53 @@
+#server:
+#  port: 8020
+#
+
+
+#soup:
+#  one: 我是a清汤
+#  two: 我是b辣汤
+#  #three表示的是一个列表，记得 - 后面有空格
+#  three:
+#    - 作料1
+#    - 佐料2
+#    - 佐料三
+
+
+#通过spring.profiles.active来激活指定文档中的配置
+spring:
+  profiles:
+    active: dev
+
+# --- 用来表示一个文档
+
+#生产环境
+---
+spring:
+  profiles: prod
+
+server:
+  port: 8021
+
+#开发环境
+---
+spring:
+  profiles: dev
+
+server:
+  port: 8022
+
+
+#加密案例
+jasypt:
+  encryptor:
+    # salt 加盐，即密钥
+    password: DSGCgsdsd$%asc>sd|@s?GDE
+
+# qg5wui6lLbqaY3DjWT6nzg== 表示对数据通过密钥进行加密后的结果
+# ENC(qg5wui6lLbqaY3DjWT6nzg==)则对数据进行了解密，当配置文件被加载时会自动解密
+#外部通过@Value("{info.username}")可获取解密内容
+info:
+  username: ENC(qg5wui6lLbqaY3DjWT6nzg==)
+
+
+

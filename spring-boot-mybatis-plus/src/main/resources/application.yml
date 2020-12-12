@@ -1,0 +1,13 @@
+server:
+  port: 8070
+spring:
+  datasource:
+    # mybatis-plus 支持配置多数据源
+      url: jdbc:mysql://localhost:3306/springboot_test1?serverTimezone=CST
+      password: 123.com
+      username: root
+
+#    h2:
+#      url: jdbc:mysql://localhost:3306/springboot_test1?serverTimezone=CST
+#      password: 123.com
+#      username: root

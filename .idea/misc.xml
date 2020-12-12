@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-templete/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-helloword/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-thymeleaf-curd/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-restful-curd/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-vue/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa-dome/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-plus/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-error-exception/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-redis-with-jedis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-kafka/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

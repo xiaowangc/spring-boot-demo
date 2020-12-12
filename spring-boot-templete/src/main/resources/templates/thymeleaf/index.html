@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>thymeleaf模板引擎</title>
+</head>
+<body>
+<!--基本属性 -->
+<!--text 不会解析什么标签 传什么就展示什么-->
+<h3>== 基本属性demo ==</h3>
+<!--静态页面时展示name1，动态页面时获取${name}并代替静态值-->
+<h4>亲爱的<span th:text="${name}">name1</span>，你好！</h4>
+<!-- utext 会解析标签 传过来的数据如果包含标签则解析-->
+<h4><span th:utext="${name}">name2</span>，你好！</h4>
+<br>
+<h3>== 对象demo1 ==</h3>
+<h4><span th:text="${food.rice}">米饭b</span></h4>
+<h4><span th:text="${food.meat}">烤肉b</span></h4>
+<br>
+<h3>== 对象demo2 ==</h3>
+<h4><span th:object="${food}">
+    <span th:text="*{rice}">米饭a</span>
+    <span th:text="*{meat}">烤肉a</span>
+</span>
+</h4>
+<!--链接url表达式-->
+<a href="#" th:href="@{/welcome1}">百度一下</a>
+
+<!--消息表达式  这个加载不了-->
+<h4><span th:text="#{something}">message</span></h4>
+
+<!--片段表达式-->
+<div th:insert="footer :: copy">2018</div>
+<div th:replace="footer :: copy">2018</div>
+</body>
+</html>

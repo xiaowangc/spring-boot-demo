@@ -1,0 +1,26 @@
+server:
+  port: 8020
+
+# freemarker 的路径配置
+spring:
+  mvc:
+    view:
+      # 文件位置 不能修改
+      prefix: /templates/
+      # 文件后缀
+      suffix: .ftl
+
+###   thymeleaf配置   ###
+# thymeleaf start
+  thmeleaf:
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+    #开发时关闭缓存,不然没法看到实时页面
+    cache: false
+# thymeleaf end
+
+# 配置消息文件 spring.message.basename
+#  message:
+#    basename: message
+

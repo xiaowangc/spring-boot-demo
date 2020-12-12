@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>添加嘉宾</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<body>
+
+<h3 class="container">添加嘉宾</h3>
+<br>
+
+<form th:action="@{/guest/add}" method="post" class="form-horizontal">
+<!--    两个input标签文本都要加name属性，这样可以组成一个Guest对象从前端传给后端-->
+    <div class="form-group">
+        <label class="col-sm-2 control-label">姓名：</label>
+        <div class="col-sm-5">
+            <input type="text" id="name" name="name" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label">角色：</label>
+        <div class="col-sm-5">
+            <input type="text" id="role" name="role" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" value="提交" class="btn btn-info">
+        </div>
+    </div>
+
+</form>
+</body>
+</html>
