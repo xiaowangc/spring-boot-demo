@@ -7,32 +7,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot-kafka" />
+        <module name="spring-boot-thymeleaf-curd (1)" />
         <module name="spring-boot-helloword" />
+        <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-plus" />
         <module name="spring-boot-templete" />
+        <module name="spring-boot-thymeleaf-curd" />
+        <module name="springboot-aopAndLog" />
+        <module name="spring-boot-swagger" />
+        <module name="spring-boot-jpa-dome" />
+        <module name="spring-boot-error-exception" />
         <module name="spring-boot-cache" />
         <module name="spring-boot-mybatis-demo" />
         <module name="spring-boot-vue" />
         <module name="spring-boot-restful-curd" />
-        <module name="spring-boot-thymeleaf-curd (1)" />
-        <module name="springboot-kafka" />
-        <module name="spring-boot-swagger" />
-        <module name="spring-boot-jpa-dome" />
-        <module name="spring-boot-duing-03-thymeleaf-crud" />
-        <module name="spring-boot-thymeleaf-curd" />
         <module name="spring-boot-redis-with-jedis" />
-        <module name="spring-boot-filter" />
-        <module name="spring-boot-error-exception" />
-        <module name="spring-boot-mybatis" />
+        <module name="spring-boot-duing-03-thymeleaf-crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring-boot-cache" target="1.8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-error-exception" target="1.8" />
-      <module name="spring-boot-filter" target="1.8" />
       <module name="spring-boot-helloword" target="1.8" />
       <module name="spring-boot-jpa-dome" target="1.8" />
+      <module name="spring-boot-mvc" target="1.8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-demo" target="1.8" />
       <module name="spring-boot-mybatis-plus" target="1.8" />
@@ -44,6 +44,7 @@
       <module name="spring-boot-thymeleaf-curd (1)" target="1.8" />
       <module name="spring-boot-thymeleaf-curd2" target="1.8" />
       <module name="spring-boot-vue" target="1.8" />
+      <module name="springboot-aopAndLog" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -52,9 +53,9 @@
       <module name="spring-boot-cache" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-error-exception" options="-parameters" />
-      <module name="spring-boot-filter" options="-parameters" />
       <module name="spring-boot-helloword" options="-parameters" />
       <module name="spring-boot-jpa-dome" options="-parameters" />
+      <module name="spring-boot-mvc" options="-parameters" />
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-demo" options="-parameters" />
       <module name="spring-boot-mybatis-plus" options="-parameters" />
@@ -66,6 +67,7 @@
       <module name="spring-boot-thymeleaf-curd (1)" options="-parameters" />
       <module name="spring-boot-thymeleaf-curd2" options="-parameters" />
       <module name="spring-boot-vue" options="-parameters" />
+      <module name="springboot-aopAndLog" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
     </option>
   </component>

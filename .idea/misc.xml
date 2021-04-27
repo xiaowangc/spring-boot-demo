@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/spring-boot-cache/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-redis-with-jedis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot-kafka/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-aop/pom.xml" />
       </list>
     </option>
   </component>

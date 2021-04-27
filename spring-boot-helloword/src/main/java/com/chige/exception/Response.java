@@ -19,6 +19,10 @@ public class Response {
     private String version = "0.0.1";
     private Object data = new HashMap<String,Object>();
 
+    public Response(){
+        this.code = ResponseCode.SUCCESS.getCode();
+        this.message = ResponseCode.SUCCESS.getMessage();
+    }
     public Response(Integer code, String message) {
         this.code = code;
         this.message = message;
@@ -28,6 +32,7 @@ public class Response {
         this.code = responseCode.getCode();
         this.message = responseCode.getMessage();
     }
+
 
 
 

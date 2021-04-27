@@ -12,7 +12,8 @@ public enum ResponseCode {
      */
     SUCCESS(10001, "SUCCESS"),
     // 失败状态码
-    FAIL(404004, "FAIL");
+    FAIL(404004, "FAIL"),
+    PARAM_INVALID(300001,"参数非法");
 
     private Integer code;
     private String message;
