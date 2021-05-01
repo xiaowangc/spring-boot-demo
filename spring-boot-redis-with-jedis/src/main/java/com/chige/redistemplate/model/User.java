@@ -17,4 +17,6 @@ public class User implements Serializable{
 
     public String userName;
     public String phone;
+
+    private Integer userId;
 }
