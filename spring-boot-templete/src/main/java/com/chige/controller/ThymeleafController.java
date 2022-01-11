@@ -1,6 +1,6 @@
 package com.chige.controller;
 
-import com.chige.config.FoodConfig;
+import com.chige.openfeign.config.FoodConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

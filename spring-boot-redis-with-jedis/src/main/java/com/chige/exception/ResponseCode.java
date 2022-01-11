@@ -20,7 +20,8 @@ public enum ResponseCode {
     SYS_USER_EXIST(30001,"角色已经存在！"),
     SPECIAL_NO_FUND(30002,"资讯专题不存在"),
     SAVE_FAIL(30003,"保存失败"),
-
+    LIKE_FAIL(30004,"点赞失败"),
+    UNLIKE_FAIL(30005,"取消点赞失败"),
     /** 40001 - 49999
      *  调用第三方出错
      */

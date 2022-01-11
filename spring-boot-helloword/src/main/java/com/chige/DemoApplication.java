@@ -1,10 +1,8 @@
 package com.chige;
 
-import com.chige.config.FoodConfig;
-import com.chige.config.SoupConfig;
-import com.ulisesbocchio.jasyptspringboot.annotation.EnableEncryptableProperties;
+import com.chige.openfeign.config.FoodConfig;
+import com.chige.openfeign.config.SoupConfig;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 

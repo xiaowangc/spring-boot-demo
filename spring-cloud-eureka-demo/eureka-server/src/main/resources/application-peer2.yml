@@ -1,0 +1,13 @@
+server:
+  port: 8089
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    service-url:
+     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+    # 手动取消向注册中心注册自己，默认开启
+    register-with-eureka: false
+    # 设置取消检索服务
+    fetch-registry: false
+

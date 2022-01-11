@@ -1,0 +1,35 @@
+server:
+  servlet:
+    context-path: /openfeign
+  address: 0.0.0.0
+  port: 8088
+
+
+# feign配置
+feign:
+  client:
+    config:
+      #default代表所有服务
+      default:
+        #feign客户端建立连接超时时间
+        connectTimeout: 2000
+        #feign客户端建立连接后读取资源超时时间
+        readTimeout: 1000
+  hystrix:
+    # 在feign中开启hystrix功能，默认情况下feign不开启hystrix功能
+    enabled: true
+  ## 配置httpclient线程池, 使用httpClient代替okhttp
+  httpclient:
+    enabled: true
+  okhttp:
+    enabled: false
+
+##自定义线程池
+http:
+  maxTotal: 230
+  defaultMaxPerRoute: 16
+  connectTimeout: 2000
+  connectionRequestTimeout: 5000
+  socketTimeout: 1000
+  retryCount: 1
+  requestSentRetryEnabled: true

@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-/*@Component
+@Component
 public class KafkaProducerConfig {
     @Value("${kafka.bootstrap-servers}")
     private String servers;
@@ -48,4 +48,4 @@ public class KafkaProducerConfig {
     public KafkaTemplate<String, Object> kafkaTemplate() {
         return new KafkaTemplate<>(producerFactory());
     }
-}*/
+}

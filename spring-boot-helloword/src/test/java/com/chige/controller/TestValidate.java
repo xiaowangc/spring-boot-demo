@@ -1,7 +1,6 @@
 package com.chige.controller;
 
 import com.chige.bean.Food;
-import com.chige.config.FoodConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.junit.runner.RunWith;

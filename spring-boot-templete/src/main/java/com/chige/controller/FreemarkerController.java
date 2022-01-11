@@ -1,15 +1,10 @@
 package com.chige.controller;
 
-import com.chige.config.FoodConfig;
-import com.chige.entity.Food;
+import com.chige.openfeign.config.FoodConfig;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.servlet.ModelAndView;
-import sun.awt.FontDescriptor;
 
 import java.util.Date;
 

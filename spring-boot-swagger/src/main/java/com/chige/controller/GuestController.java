@@ -10,7 +10,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import springfox.documentation.annotations.ApiIgnore;
 
-@Controller
+@RestController
 @RequestMapping("/guest")
 @Api(tags = "嘉宾相关的接口",description = "对嘉宾进行CURD的接口")
 public class GuestController {

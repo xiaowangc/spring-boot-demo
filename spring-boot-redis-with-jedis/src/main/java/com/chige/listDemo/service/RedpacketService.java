@@ -1,8 +1,7 @@
 package com.chige.listDemo.service;
 
-import com.chige.config.RedisKeyConfig;
+import com.chige.openfeign.config.RedisKeyConfig;
 import com.chige.domain.RedPacketRequest;
-import io.swagger.models.auth.In;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.ListOperations;

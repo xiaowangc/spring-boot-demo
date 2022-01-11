@@ -1,4 +1,4 @@
-package com.chige.config;
+package com.chige.openfeign.config;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;

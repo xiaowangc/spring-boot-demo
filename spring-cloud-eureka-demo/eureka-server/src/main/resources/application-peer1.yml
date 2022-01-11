@@ -1,0 +1,9 @@
+server:
+  port: 8088
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    service-url:
+     defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+

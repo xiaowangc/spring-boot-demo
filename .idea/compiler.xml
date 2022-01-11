@@ -8,25 +8,33 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot-kafka" />
+        <module name="spring-cloud-openfeign" />
         <module name="spring-boot-thymeleaf-curd (1)" />
         <module name="spring-boot-helloword" />
+        <module name="xxl-job" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-mybatis-plus" />
         <module name="spring-boot-templete" />
+        <module name="eureka-server" />
         <module name="spring-boot-thymeleaf-curd" />
         <module name="springboot-aopAndLog" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-jpa-dome" />
         <module name="spring-boot-error-exception" />
+        <module name="eureka-client" />
         <module name="spring-boot-cache" />
         <module name="spring-boot-mybatis-demo" />
         <module name="spring-boot-vue" />
         <module name="spring-boot-restful-curd" />
         <module name="spring-boot-redis-with-jedis" />
         <module name="spring-boot-duing-03-thymeleaf-crud" />
+        <module name="eureka-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="eureka-client" target="8" />
+      <module name="eureka-consumer" target="8" />
+      <module name="eureka-server" target="8" />
       <module name="spring-boot-cache" target="1.8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-error-exception" target="1.8" />
@@ -44,12 +52,18 @@
       <module name="spring-boot-thymeleaf-curd (1)" target="1.8" />
       <module name="spring-boot-thymeleaf-curd2" target="1.8" />
       <module name="spring-boot-vue" target="1.8" />
+      <module name="spring-cloud-eureka-demo" target="8" />
+      <module name="spring-cloud-openfeign" target="8" />
       <module name="springboot-aopAndLog" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
+      <module name="xxl-job" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-client" options="-parameters" />
+      <module name="eureka-consumer" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
       <module name="spring-boot-cache" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-error-exception" options="-parameters" />
@@ -67,8 +81,11 @@
       <module name="spring-boot-thymeleaf-curd (1)" options="-parameters" />
       <module name="spring-boot-thymeleaf-curd2" options="-parameters" />
       <module name="spring-boot-vue" options="-parameters" />
+      <module name="spring-cloud-eureka-demo" options="-parameters" />
+      <module name="spring-cloud-openfeign" options="-parameters" />
       <module name="springboot-aopAndLog" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />
+      <module name="xxl-job" options="-parameters" />
     </option>
   </component>
 </project>

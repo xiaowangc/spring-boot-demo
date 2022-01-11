@@ -2,19 +2,14 @@ package com.chige.controller;
 
 import com.chige.bean.Beaf;
 import com.chige.bean.Food;
-import com.chige.config.FoodConfig;
+import com.chige.openfeign.config.FoodConfig;
 import com.chige.exception.Response;
-import com.chige.exception.ResponseCode;
 import com.chige.exception.ResponseException;
 import com.chige.util.ValidatorUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.validation.BindingResult;
-import org.springframework.validation.FieldError;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.List;
 
 /**
  * @RestController 相当于@Controller + @RequestBody的组合

@@ -1,4 +1,4 @@
-package com.chige.config;
+package com.chige.openfeign.config;
 
 import com.chige.interceptor.PersonInterceptor;
 import org.springframework.beans.factory.annotation.Autowired;

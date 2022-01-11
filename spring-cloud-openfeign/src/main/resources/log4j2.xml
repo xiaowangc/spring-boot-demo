@@ -1,0 +1,27 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+
+<!--<Configuration status="INFO" packages = "com.dianping.cat.log4j">-->
+
+<!--    <Loggers>-->
+<!--        <Root level="info">-->
+<!--            <AppenderRef ref="FILE"/>-->
+<!--            <AppenderRef ref="CatAppender"/>-->
+<!--            <AppenderRef ref="Console" />-->
+<!--        </Root>-->
+<!--    </Loggers>-->
+<!--    <Appenders>-->
+<!--        <CatAppender name = "CatAppender" />-->
+<!--&lt;!&ndash;        <RollingFile name="FILE" fileName="${sys:log.path}/person-relation.log"&ndash;&gt;-->
+<!--&lt;!&ndash;                     filePattern="${sys:log.path}/person-relation.log.%d{yyyy-MM-dd}">&ndash;&gt;-->
+<!--&lt;!&ndash;            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%5p] - %c -%F(%L) -%m%n"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <ThresholdFilter level="info"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            <Policies>&ndash;&gt;-->
+<!--&lt;!&ndash;                <TimeBasedTriggeringPolicy modulate="true" interval="1"/>&ndash;&gt;-->
+<!--&lt;!&ndash;            </Policies>&ndash;&gt;-->
+<!--&lt;!&ndash;        </RollingFile>&ndash;&gt;-->
+<!--        <Console name="Console" target="SYSTEM_OUT">-->
+<!--            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} [%5p] - %c -%F(%L) -[%X{logId}] -%m%n"/>-->
+<!--            <ThresholdFilter level="debug"/>-->
+<!--        </Console>-->
+<!--    </Appenders>-->
+<!--</Configuration>-->
