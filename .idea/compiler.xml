@@ -18,6 +18,7 @@
         <module name="eureka-server" />
         <module name="spring-boot-thymeleaf-curd" />
         <module name="springboot-aopAndLog" />
+        <module name="spring-boot-es" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-jpa-dome" />
         <module name="spring-boot-error-exception" />
@@ -38,6 +39,7 @@
       <module name="spring-boot-cache" target="1.8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-error-exception" target="1.8" />
+      <module name="spring-boot-es" target="8" />
       <module name="spring-boot-helloword" target="1.8" />
       <module name="spring-boot-jpa-dome" target="1.8" />
       <module name="spring-boot-mvc" target="1.8" />
@@ -67,6 +69,7 @@
       <module name="spring-boot-cache" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-error-exception" options="-parameters" />
+      <module name="spring-boot-es" options="-parameters" />
       <module name="spring-boot-helloword" options="-parameters" />
       <module name="spring-boot-jpa-dome" options="-parameters" />
       <module name="spring-boot-mvc" options="-parameters" />

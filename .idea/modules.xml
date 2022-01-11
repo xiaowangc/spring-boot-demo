@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/spring-boot-duing-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/spring-boot-duing-03-thymeleaf-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-error-exception/spring-boot-error-exception.iml" filepath="$PROJECT_DIR$/spring-boot-error-exception/spring-boot-error-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-es/spring-boot-es.iml" filepath="$PROJECT_DIR$/spring-boot-es/spring-boot-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-helloword/spring-boot-helloword.iml" filepath="$PROJECT_DIR$/spring-boot-helloword/spring-boot-helloword.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa-dome/spring-boot-jpa-dome.iml" filepath="$PROJECT_DIR$/spring-boot-jpa-dome/spring-boot-jpa-dome.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
