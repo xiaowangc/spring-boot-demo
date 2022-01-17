@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrying-demo/retrying-demo.iml" filepath="$PROJECT_DIR$/retrying-demo/retrying-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" filepath="$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/spring-boot-duing-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/spring-boot-duing-03-thymeleaf-crud.iml" />
@@ -12,11 +13,13 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-es/spring-boot-es.iml" filepath="$PROJECT_DIR$/spring-boot-es/spring-boot-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-helloword/spring-boot-helloword.iml" filepath="$PROJECT_DIR$/spring-boot-helloword/spring-boot-helloword.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa-dome/spring-boot-jpa-dome.iml" filepath="$PROJECT_DIR$/spring-boot-jpa-dome/spring-boot-jpa-dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/spring-boot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-with-jedis/spring-boot-redis-with-jedis.iml" filepath="$PROJECT_DIR$/spring-boot-redis-with-jedis/spring-boot-redis-with-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-curd.iml" filepath="$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-curd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-demo.iml" filepath="$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" filepath="$PROJECT_DIR$/spring-boot-swagger/spring-boot-swagger.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-templete/spring-boot-templete.iml" filepath="$PROJECT_DIR$/spring-boot-templete/spring-boot-templete.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf-curd/spring-boot-thymeleaf-curd.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf-curd/spring-boot-thymeleaf-curd.iml" />
