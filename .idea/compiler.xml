@@ -10,6 +10,7 @@
         <module name="springboot-kafka" />
         <module name="spring-cloud-openfeign" />
         <module name="spring-boot-thymeleaf-curd (1)" />
+        <module name="spring-boot-dubbo" />
         <module name="spring-boot-helloword" />
         <module name="xxl-job" />
         <module name="spring-boot-mybatis" />
@@ -37,6 +38,7 @@
       <module name="eureka-consumer" target="8" />
       <module name="eureka-server" target="8" />
       <module name="spring-boot-cache" target="1.8" />
+      <module name="spring-boot-dubbo" target="8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-error-exception" target="1.8" />
       <module name="spring-boot-es" target="8" />
@@ -67,6 +69,7 @@
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="spring-boot-cache" options="-parameters" />
+      <module name="spring-boot-dubbo" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-error-exception" options="-parameters" />
       <module name="spring-boot-es" options="-parameters" />

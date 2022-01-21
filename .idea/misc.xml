@@ -24,6 +24,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-eureka-demo/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-openfeign/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-es/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
       </list>
     </option>
   </component>
