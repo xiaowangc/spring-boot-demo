@@ -1,8 +1,8 @@
 package com.chige.es.repository;
 
 import com.chige.es.ESApplication;
-import com.chige.es.dao.repository.ProductRepository;
-import com.chige.es.domain.ESProductDO;
+import com.chige.es.dao.repository.AccountRepository;
+import com.chige.es.domain.ESAccountDO;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +14,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class ProductRepositoryTest {
 
     @Autowired
-    private ProductRepository productRepository;
+    private AccountRepository accountRepository;
 
     @Test
     public void testProductRep() {
@@ -29,15 +29,19 @@ public class ProductRepositoryTest {
      *  插入一条记录
      */
     private void testInsert() {
-        ESProductDO product = new ESProductDO();
-        product.setId(1); // 一般 ES 的 ID 编号，使用 DB 数据对应的编号。这里，先写死
-        product.setName("池哥学ES");
-        product.setSellPoint("愿半生编码，如一生老友");
-        product.setDescription("我只是一个描述");
-        product.setCid(1);
-        product.setCategoryName("技术");
-        productRepository.save(product);
-
+        ESAccountDO product = new ESAccountDO();
+        product.setAccountNumber(31L);
+        product.setBalance(10031L);
+        product.setFirstName("王");
+        product.setLastName("chige");
+        product.setAge(18L);
+        product.setGender("F");
+        product.setAddress("797 Moffat Street");
+        product.setEmployer("Niquent");
+        product.setEmail("xiaowangy@qq.com");
+        product.setCity("Zarephath");
+        product.setState("DE");
+        accountRepository.save(product);
     }
     /**
      *  更新一条记录
