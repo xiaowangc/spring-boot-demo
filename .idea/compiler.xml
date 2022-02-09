@@ -26,6 +26,7 @@
         <module name="spring-boot-dubbo" />
         <module name="spring-boot-helloword" />
         <module name="xxl-job" />
+        <module name="dozer-dome" />
         <module name="spring-boot-mybatis" />
         <module name="spring-boot-kafka" />
         <module name="spring-boot-swagger" />
@@ -37,6 +38,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="dozer-dome" target="8" />
       <module name="eureka-client" target="8" />
       <module name="eureka-consumer" target="8" />
       <module name="eureka-server" target="8" />
@@ -71,10 +73,12 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dozer-dome" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="spring-boot-cache" options="-parameters" />
+      <module name="spring-boot-dubbo" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-error-exception" options="-parameters" />
       <module name="spring-boot-es" options="-parameters" />

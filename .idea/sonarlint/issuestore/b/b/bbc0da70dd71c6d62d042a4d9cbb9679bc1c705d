@@ -1,0 +1,9 @@
+
+S
+java:S1854%"8Remove this useless assignment to local variable "meat".(’öÌ®úÿÿÿÿ
+`
+java:S4488 "JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(°âç
+D
+java:S1481%")Remove this unused "meat" local variable.(’öÌ®úÿÿÿÿ
+e
+java:S4488)"JReplace "@RequestMapping(method = RequestMethod.POST)" with "@PostMapping"(¿†®¨ûÿÿÿÿ

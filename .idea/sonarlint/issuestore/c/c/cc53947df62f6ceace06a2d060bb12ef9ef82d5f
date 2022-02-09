@@ -1,0 +1,5 @@
+
+c
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(¥”ª‘ÿÿÿÿÿ
+c
+java:S1128"MRemove this unused import 'org.springframework.cloud.client.ServiceInstance'.(¡‡¨ã

@@ -1,6 +1,10 @@
 server:
   port: 8080
 
+es:
+  host: 10.1.10.222
+  port: 9200
+
 
 spring:
   data:

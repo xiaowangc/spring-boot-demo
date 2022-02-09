@@ -1,0 +1,6 @@
+com\chige\xxl\demo\constanst\TestEnum.class
+com\chige\xxl\demo\config\XxlJobConfiguration.class
+com\chige\xxl\demo\task\CountTask.class
+com\chige\xxl\demo\task\CountTask$Person.class
+com\chige\xxl\demo\test\Test1.class
+com\chige\xxl\demo\XxlApplication.class

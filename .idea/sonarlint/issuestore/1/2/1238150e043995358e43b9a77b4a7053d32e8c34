@@ -1,0 +1,13 @@
+
+>
+java:S3066 "#Lower the visibility of this field.(âˆá›ÿÿÿÿÿ
+9
+java:S3066!"#Lower the visibility of this field.(ÝÑºŒ
+R
+java:S30663"<Lower the visibility of this setter or remove it altogether.(ˆ«×
+W
+java:S30666"<Lower the visibility of this setter or remove it altogether.(¹ØËÁÿÿÿÿÿ
+k
+java:S1104 "PMake code a static final constant or non-public and provide accessors if needed.(âˆá›ÿÿÿÿÿ
+e
+java:S1104!"OMake msg a static final constant or non-public and provide accessors if needed.(ÝÑºŒ
