@@ -27,6 +27,7 @@
         <option value="$PROJECT_DIR$/retrying-demo/pom.xml" />
         <option value="$PROJECT_DIR$/dozer-dome/pom.xml" />
         <option value="$PROJECT_DIR$/spring-boot-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
       </list>
     </option>
   </component>

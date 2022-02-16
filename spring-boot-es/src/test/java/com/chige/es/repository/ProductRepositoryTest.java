@@ -1,26 +1,31 @@
 package com.chige.es.repository;
 
 import com.chige.es.ESApplication;
-import com.chige.es.dao.repository.AccountRepository;
 import com.chige.es.domain.ESAccountDO;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import org.elasticsearch.client.RestHighLevelClient;
+import org.elasticsearch.index.query.BoolQueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import java.util.Map;
+
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = ESApplication.class)
 public class ProductRepositoryTest {
-
     @Autowired
-    private AccountRepository accountRepository;
+    private RestHighLevelClient restHighLevelClient;
 
     @Test
     public void testProductRep() {
-        this.testInsert();
-        this.testDeleteOne();
-        this.testUpdate();
+//        this.testInsert();
+//        this.testDeleteOne();
+//        this.testUpdate();
         this.testQueryById();
         this.testQueryByIds();
     }
@@ -41,7 +46,6 @@ public class ProductRepositoryTest {
         product.setEmail("xiaowangy@qq.com");
         product.setCity("Zarephath");
         product.setState("DE");
-        accountRepository.save(product);
     }
     /**
      *  更新一条记录
@@ -68,5 +72,19 @@ public class ProductRepositoryTest {
 
     }
 
+    /**
+     *  构建查询条件
+     * @param queryMap
+     * @return
+     */
+    private BoolQueryBuilder getBoolQueryBuilder(Map<String, Object> queryMap) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        BoolQueryBuilder boolQueryBuilder = QueryBuilders.boolQuery();
+
+        // 模糊匹配
+        // 精准匹配
+
+        return boolQueryBuilder;
+    }
 
 }
