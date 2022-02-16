@@ -1,13 +1,13 @@
 server:
   port: 8080
 
-es:
-  host: 10.1.10.222
-  port: 9200
 
+elasticsearch:
+  schema: http
+  servers: 10.1.10.222:9200
+  connectTimeout: 5000
+  socketTimeout: 3000
+  connectRequestTimeout: 5000
+  maxConnectNum: 100
+  maxConnectPerRoute: 100
 
-spring:
-  data:
-    # Jest 配置项
-    jest:
-      uri: http://10.1.10.222:9200
