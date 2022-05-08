@@ -3,13 +3,14 @@ package com.chige.dao;
 import com.chige.domain.Guest;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.http.converter.json.GsonBuilderUtils;
+import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 
-@Repository
+@Component
 public class GuestDao {
 
 

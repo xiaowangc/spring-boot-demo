@@ -57,10 +57,6 @@ Xspring-boot-redis-with-jedis/src/main/java/com/chige/openfeign/config/SwaggerCo
 Yspring-boot-redis-with-jedis/src/main/java/com/chige/redistemplate/model/LikeRequest.java,b\2\b20f7817c216ec28d43f2ad20d1b6cbbfe8d8ab8
 |
 Lspring-boot-redis-with-jedis/src/main/java/com/chige/set/LikeController.java,6\1\6192232f9ea21cf9054f90f9de56fef282f7b029
-t
-Dspring-boot-restful-curd/src/test/java/mock/GuestControllerTest.java,8\7\87d785493307ede48e4bbbd020c42a41e56c55cc
-q
-Aspring-boot-restful-curd/src/test/java/mock/GuestServiceTest.java,d\3\d3e9d82441fe12608aea992ffe156d3c25820fed
 {
 Kspring-boot-swagger/src/main/java/com/chige/controller/GuestController.java,b\f\bf30fef23c088b60336d113ab02ecdeccbaafef0
 z

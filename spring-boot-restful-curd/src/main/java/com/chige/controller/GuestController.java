@@ -1,35 +1,35 @@
 package com.chige.controller;
 
 import com.chige.domain.Guest;
-import com.chige.service.GuestServiceImp;
+import com.chige.domain.Response;
+import com.chige.service.GuestService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-@Controller
+import java.util.HashMap;
+import java.util.Map;
+
+@Slf4j
+@RestController
 @RequestMapping("/guest")
 public class GuestController {
 
     //目前应该是service层发生错误
     @Autowired
-    private GuestServiceImp guestService;
+    private GuestService guestService;
+    private Map<Integer, Guest> map = new HashMap<>();
 
 
     @GetMapping
-    public String list(Model model){
+    public Response list(Model model){
         model.addAttribute("guestList",guestService.allGuests());
-        return "list";
+        return new Response(guestService.allGuests());
     }
-
-    @GetMapping("/toAdd")
-    public String toAdd(Model model){
-        return "add";
-    }
-    //增加人员时：试下POSTmapping 和 PUTMappping
 
     @PostMapping
-    public String add(Guest guest){
+    public String add(@RequestBody Guest guest){
         guestService.addOne(guest);
         //接受前端传过来的name 和 role值
         return "redirect:/guest";
@@ -54,10 +54,17 @@ public class GuestController {
         guestService.updateOne(guest);
         return "redirect:/guest";
     }
-    @DeleteMapping("/{name}")
+    @DeleteMapping("/name/{name}")
     public String toDelete(@PathVariable("name") String name){
         guestService.deleteOne(name);
         return "redirect:/guest";
+    }
+    @PatchMapping
+    public Response updateName(@RequestBody Guest guest) {
+        boolean updateOne = guestService.updateOne(guest);
+        Guest guest1 = guestService.selectOne(guest.getName());
+        log.info("更新后为:{}", guest1);
+        return new Response(updateOne);
     }
 
 }

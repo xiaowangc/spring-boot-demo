@@ -2,8 +2,7 @@ package mock;
 
 import com.chige.dao.GuestDao;
 import com.chige.domain.Guest;
-import com.chige.service.GuestService;
-import com.chige.service.GuestServiceImp;
+import com.chige.service.impl.GuestServiceImp;
 import com.jayway.jsonpath.JsonPath;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Rule;
@@ -16,9 +15,7 @@ import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.mockito.junit.MockitoRule;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * @author wangyc

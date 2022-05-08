@@ -1,14 +1,15 @@
-package com.chige.service;
+package com.chige.service.impl;
 
 import com.chige.dao.GuestDao;
 import com.chige.domain.Guest;
+import com.chige.service.GuestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @Service
-public class GuestServiceImp implements GuestService{
+public class GuestServiceImp implements GuestService {
 
     @Autowired
     private GuestDao guestDao;

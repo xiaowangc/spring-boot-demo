@@ -8,11 +8,8 @@ import java.io.*;
 @SpringBootApplication
 public class RestfulDemoApplication {
 
-
-
-    public static void main(String[] args) throws IOException {
-
-
+    public static void main(String[] args)  {
+        SpringApplication.run(RestfulDemoApplication.class, args);
     }
 
 

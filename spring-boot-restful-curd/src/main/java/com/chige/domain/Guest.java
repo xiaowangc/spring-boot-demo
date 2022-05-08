@@ -1,10 +1,12 @@
 package com.chige.domain;
 
-import org.springframework.stereotype.Component;
 //添加全参构造方法
 
-@Component
+import lombok.ToString;
+
+@ToString
 public class Guest {
+    private Integer userId;
     private String name;//姓名
     private String role;//角色
 
@@ -12,6 +14,14 @@ public class Guest {
     public Guest(String name,String role){
         this.name = name;
         this.role = role;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public String getName() {
