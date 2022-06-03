@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/delayQueue/delayQueue.iml" filepath="$PROJECT_DIR$/delayQueue/delayQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/dozer-dome/dozer-dome.iml" filepath="$PROJECT_DIR$/dozer-dome/dozer-dome.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/new-project-init/new-project-init.iml" filepath="$PROJECT_DIR$/new-project-init/new-project-init.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrying-demo/retrying-demo.iml" filepath="$PROJECT_DIR$/retrying-demo/retrying-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" filepath="$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" />

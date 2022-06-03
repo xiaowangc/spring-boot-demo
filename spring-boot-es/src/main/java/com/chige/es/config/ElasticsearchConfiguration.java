@@ -45,7 +45,7 @@ public class ElasticsearchConfiguration {
            return requestConfigCallback;
         });
         // 异步连接数配置
-        restClientBuilder.setHttpClientConfigCallback(httpAsyncClientBuilder ->{
+        restClientBuilder.setHttpClientConfigCallback(httpAsyncClientBuilder -> {
            httpAsyncClientBuilder.setMaxConnPerRoute(maxConnectPerRoute);
            httpAsyncClientBuilder.setMaxConnTotal(maxConnectNum);
            return httpAsyncClientBuilder;

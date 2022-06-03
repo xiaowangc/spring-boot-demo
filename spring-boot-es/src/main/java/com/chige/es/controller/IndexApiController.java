@@ -15,7 +15,8 @@ import java.io.IOException;
  *   索引的创建、删除、查询操作
  */
 @Slf4j
-@RestController("/index")
+@RestController
+@RequestMapping("/index")
 public class IndexApiController {
     @Autowired
     private RestHighLevelClient restHighLevelClient;
@@ -23,7 +24,7 @@ public class IndexApiController {
     /**
      *  创建索引 - 自动创建id
      */
-    @PutMapping("/create/auto")
+    @PostMapping("/create/auto")
     public String createIndexAuto(@RequestBody IndexRequest request) {
         CreateIndexRequest indexRequest = new CreateIndexRequest(request.getIndexName());
         try {

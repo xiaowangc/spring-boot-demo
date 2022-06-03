@@ -10,6 +10,7 @@
         <module name="spring-cloud-openfeign" />
         <module name="retrying-demo" />
         <module name="spring-boot-mybatis-plus" />
+        <module name="new-project-init" />
         <module name="spring-boot-templete" />
         <module name="eureka-server" />
         <module name="springboot-aopAndLog" />
@@ -21,6 +22,7 @@
         <module name="spring-boot-restful-demo" />
         <module name="spring-boot-restful-curd" />
         <module name="spring-boot-redis-with-jedis" />
+        <module name="delayQueue" />
         <module name="springboot-kafka" />
         <module name="spring-boot-thymeleaf-curd (1)" />
         <module name="spring-boot-dubbo" />
@@ -40,10 +42,12 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="delayQueue" target="8" />
       <module name="dozer-dome" target="8" />
       <module name="eureka-client" target="8" />
       <module name="eureka-consumer" target="8" />
       <module name="eureka-server" target="8" />
+      <module name="new-project-init" target="8" />
       <module name="retrying-demo" target="8" />
       <module name="spring-annotation" target="1.8" />
       <module name="spring-boot-cache" target="1.8" />
