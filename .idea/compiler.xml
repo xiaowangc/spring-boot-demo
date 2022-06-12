@@ -17,6 +17,7 @@
         <module name="spring-boot-es" />
         <module name="spring-boot-thymeleaf-curd" />
         <module name="spring-boot-jpa-dome" />
+        <module name="spring-boot-demo" />
         <module name="spring-boot-cache" />
         <module name="spring-boot-docker" />
         <module name="spring-boot-mybatis-demo" />
@@ -53,6 +54,7 @@
       <module name="retrying-demo" target="8" />
       <module name="spring-annotation" target="1.8" />
       <module name="spring-boot-cache" target="1.8" />
+      <module name="spring-boot-demo" target="8" />
       <module name="spring-boot-docker" target="8" />
       <module name="spring-boot-dubbo" target="8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />

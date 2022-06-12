@@ -13,6 +13,6 @@ import org.springframework.stereotype.Component;
 public class TestCommandLineRunner implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
-        System.out.println("Order2: TestCommandLineRunner");
+        System.out.println("Order2: TestCommandLineRunner，args=" + args);
     }
 }

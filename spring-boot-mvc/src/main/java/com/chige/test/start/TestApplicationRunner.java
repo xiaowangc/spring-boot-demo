@@ -14,6 +14,6 @@ import org.springframework.stereotype.Component;
 public class TestApplicationRunner implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
-        System.out.println("Order1:TestApplicationRunner");
+        System.out.println("Order1:TestApplicationRunner,args=");
     }
 }
