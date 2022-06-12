@@ -1,6 +1,5 @@
 package com.chige.response;
 
-import com.sun.org.apache.regexp.internal.RE;
 import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.io.Serializable;

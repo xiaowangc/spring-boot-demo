@@ -30,6 +30,8 @@
         <option value="$PROJECT_DIR$/spring-annotation/pom.xml" />
         <option value="$PROJECT_DIR$/delayQueue/pom.xml" />
         <option value="$PROJECT_DIR$/new-project-init/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-docker/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mvc/pom.xml" />
       </list>
     </option>
   </component>

@@ -37,9 +37,9 @@ public class TestRedisTemplate {
         ValueOperations<String, String> strOps = stringRedisTemplate.opsForValue();
         String key = "key1";
         String values = "1";
-        valueOperations.set(key,new User("AA","123456"));
+        valueOperations.set(key,new User("AA","123456",1));
         String key2 = "key2";
-        strOps.set(key2,JSONUtil.toJsonStr(new User("BB","123654")));
+        strOps.set(key2,JSONUtil.toJsonStr(new User("BB","123654",2)));
         Object o = valueOperations.get(key);
         String s = strOps.get(key2);
         if (o != null) {
@@ -60,9 +60,9 @@ public class TestRedisTemplate {
         // 列表类型操作组件
         ListOperations<String, Object> opsForList = redisTemplate.opsForList();
         List<User> userList = new ArrayList<>();
-        userList.add(new User("A","13672"));
-        userList.add(new User("B","13671"));
-        userList.add(new User("C","13670"));
+        userList.add(new User("A","13672",1));
+        userList.add(new User("B","13671",2));
+        userList.add(new User("C","13670",3));
         final String key = "redis:list:1";
         log.info("构建已经排好序的用户对象列表，{}", JSONUtil.toJsonStr(userList));
         // 想redis数据库中新增数据-从尾部插入

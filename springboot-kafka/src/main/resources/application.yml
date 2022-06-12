@@ -29,3 +29,34 @@ spring:
       #missing-topics-fatal: false
       #batch-listener: true
 
+
+kafka:
+  producer:
+    bootstrap-servers: 10.1.95.154:2181
+    retries: 1 #若设置大于0的值，则客户端会将发送失败的记录重新发送
+    batch-size: 16384   #每次批量发送消息的数量；当将多个记录被发送到同一个分区时， Producer 将尝试将记录组合到更少的请求中。
+    buffer-memory: 33554432 # 缓存容量
+    connections-max-idle-ms: 540000 #默认值。在此配置指定的毫秒数之后，关闭空闲连接。
+    max-request-size: 1048576 #请求的最大字节数
+    max-block-ms: 60000 #消息推送到缓存区的阻塞时长，超过时间可能会重试
+    request-timeout-ms: 30000 #客户端等待请求响应的最大时长。如果超时未收到响应，则客户端将在必要时重新发送请求，如果重试的次数达到允许的最大重试次数，则请求失败。
+    acks: 1
+    compression-type: none #可配置的压缩类型包括：none, gzip, snappy, 或者 lz4 。压缩是针对批处理的所有数据
+    key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    security-protocol: PLAINTEXT #与 brokers 通讯的协议。可配置的值有: PLAINTEXT, SSL, SASL_PLAINTEXT, SASL_SSL.
+    interceptor-classes: null #配置 interceptor 类的列表。实现 org.apache.kafka.clients.producer.ProducerInterceptor接口之后可以拦截(并可能改变)那些 Producer 还没有发送到 kafka 集群的记录。默认情况下，没有 interceptor 。
+    metric-reporters: "" #用于指标监控报表的类清单。实现org.apache.kafka.common.metrics.MetricsReporter接口之后允许插入能够通知新的创建度量的类。JmxReporter 总是包含在注册的 JMX 统计信息中。
+    metrics-num-samples: 2 #计算 metrics 所需要维持的样本数量。
+    metrics-recording-level: INFO #metrics 的最高纪录级别。
+
+  consumer:
+    bootstrap-servers: 10.1.95.154:2181
+    group-id: springboot-kafka
+
+
+    key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+
+

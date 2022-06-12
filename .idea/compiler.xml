@@ -18,6 +18,7 @@
         <module name="spring-boot-thymeleaf-curd" />
         <module name="spring-boot-jpa-dome" />
         <module name="spring-boot-cache" />
+        <module name="spring-boot-docker" />
         <module name="spring-boot-mybatis-demo" />
         <module name="spring-boot-restful-demo" />
         <module name="spring-boot-restful-curd" />
@@ -32,6 +33,7 @@
         <module name="spring-boot-mybatis" />
         <module name="springboot-aop" />
         <module name="spring-boot-kafka" />
+        <module name="spring-boot-mvc" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-error-exception" />
         <module name="eureka-client" />
@@ -51,6 +53,7 @@
       <module name="retrying-demo" target="8" />
       <module name="spring-annotation" target="1.8" />
       <module name="spring-boot-cache" target="1.8" />
+      <module name="spring-boot-docker" target="8" />
       <module name="spring-boot-dubbo" target="8" />
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-error-exception" target="1.8" />
@@ -58,7 +61,7 @@
       <module name="spring-boot-helloword" target="1.8" />
       <module name="spring-boot-jpa-dome" target="1.8" />
       <module name="spring-boot-kafka" target="1.8" />
-      <module name="spring-boot-mvc" target="1.8" />
+      <module name="spring-boot-mvc" target="8" />
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-demo" target="1.8" />
       <module name="spring-boot-mybatis-plus" target="1.8" />

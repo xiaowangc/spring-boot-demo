@@ -1,0 +1,23 @@
+
+
+
+elasticsearch:
+  servers: 127.0.0.1:9200
+  connectTimeout: 5000
+  socketTimeout: 5000
+  connectRequestTimeout: 3000
+  maxConnectNum: 10
+  maxConnectPerRoute: 3
+
+xxl:
+  job:
+    admin:
+      addresses: http://127.0.0.1:8092/xxl-job-admin
+    executor:
+      address:
+      appname: ${spring.application.name}-dev
+      ip:
+      port: 0
+      logpath: /${project.basedir}/log/xxljoblog/
+      logretentiondays: 15
+    accessToken: token123

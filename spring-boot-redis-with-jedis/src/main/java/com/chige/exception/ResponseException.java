@@ -1,7 +1,6 @@
 package com.chige.exception;
 
 
-import org.apache.http.protocol.ResponseServer;
 
 public class ResponseException extends RuntimeException {
 

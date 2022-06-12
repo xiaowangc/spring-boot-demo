@@ -1,2 +1,30 @@
 server:
   port: 8085
+  servlet:
+    context-path: new-project
+
+spring:
+  application:
+    name: new-project
+  profiles:
+    active: dev
+  redis:
+    host: 172.17.0.3
+    port: 6379
+    password: 123.com
+    database: 10
+    # 连接超时时间
+    timeout: 5000ms
+    # 这里配置pool是因为加入了依赖包commons-pool2
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1ms
+    jedis:
+      pool:
+        max-active: 8
+        max-idle: 8
+        min-idle: 0
+        max-wait: -1
