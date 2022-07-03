@@ -31,10 +31,26 @@
             <artifactId>spring-boot-devtools</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>com.chige</groupId>
+            <artifactId>hello-spring-boot-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
 
-<!--热部署第一步：引入依赖库
-    第二步：在settings——》Build——》Compiler中勾选Build project automatically
-    第三步：同时按住键盘shift + alt + ctrl + / 这四个键,之后选择Registry，再找到compiler.automake.allow.when.app.running并勾选-->
+
+        <!--热部署第一步：引入依赖库
+            第二步：在settings——》Build——》Compiler中勾选Build project automatically
+            第三步：同时按住键盘shift + alt + ctrl + / 这四个键,之后选择Registry，再找到compiler.automake.allow.when.app.running并勾选-->
 <!--            <dependency>-->
 <!--                <groupId>org.springframework.boot</groupId>-->
 <!--                <artifactId>spring-boot-devtools</artifactId>-->

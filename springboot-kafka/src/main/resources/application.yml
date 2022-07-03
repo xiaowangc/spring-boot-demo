@@ -53,10 +53,19 @@ kafka:
   consumer:
     bootstrap-servers: 10.1.95.154:2181
     group-id: springboot-kafka
-
-
+    partition-assignment-strategy: org.apache.kafka.clients.consumer.RangeAssignor #分区分配策略的类名，当使用组管理时，客户端将使用该策略在使用者实例之间分配分区所有权。其他分区策略类：RoundRobinAssignor、StickyAssignor
+    fetch-min-bytes: 1 #服务器应为获取请求返回的最小数据量。如果没有足够的可用数据，请求将等待大量数据积累后再回答请求。将此值设置为大于1的值将导致服务器等待积累更多的数据，这会稍微提高服务器吞吐量，但会增加一些延迟。
+    heartbeat-interval-ms: 3000 #ms。心跳用于确保消费者会话保持活跃，并在新消费者加入或离开团队时促进重新平衡;该值必须设置为低于会话超时时间
     key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
     value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
-
-
-
+    max-partition-fetch-bytes: 1048576 #服务器将返回的每个分区的最大数据量。如果提取的第一个非空分区中的第一个记录批大于此限制，则仍将返回该批，以确保使用者能够取得进展
+    fetch-max-bytes: 52428800 #限制消费者请求拉取的最大数据量,但如果批量消息中消息大小大于该值，则该批消息还是会被拉取回来，所有没有一个绝对最大值
+    session-timeout-ms: 10000 #用于检测消费者在消费者组中的故障情况。kafka会有一个心跳线程来同步服务端，告诉服务端自己是正常可用的，默认是3秒发送一次心跳，如果broker在此会话超时到期之前未收到心跳，则broker将从组中删除此消费者并启动重新平衡。#该值必须介于group.min.session.timeout.ms 和 group.max.session.timeout.ms之间
+    auto-offset-reset: latest #重新设置offset偏移量。当kafka中没有初始offset或者offset已经被删除，则需要重新配置offset的值。earliest：表示自动将偏移重置为最早偏移； latest：自动将偏移重置为最新偏移 none:如果没有为使用者组找到以前的偏移量，则向使用者引发异常
+    connections-max-idle-ms: 540000 #在此配置指定的毫秒数之后关闭空闲连接
+    enable-auto-commit: true #为true，则将在后台定期提交使用者的偏移量
+    exclude-internal-topics: true #是否应向使用者公开来自内部主题（如偏移量）的记录。如果设置为true，则从内部主题接收记录的唯一方法是订阅它。
+    request-timeout-ms: 305000 #配置控制客户端等待请求响应的最长时间。如果在超时时间结束之前未收到响应，则客户端将在必要时重新发送请求，或者在重试次数用尽时使请求失败
+    receive-buffer-bytes: 65536 #读取数据时要使用的TCP接收缓冲区（SO\u RCVBUF）的大小。如果值为-1，则将使用OS默认值。
+    max-poll-interval-ms: 300000 #5分钟。消费者获取消息后提交偏移量的最大时间，kafka会重新进行重新负载均衡，以便把消息分配给另一个消费组成员
+    max-poll-records: 500 #在对poll（）的单个调用中返回的最大记录数

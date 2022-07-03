@@ -34,8 +34,6 @@ Nspring-boot-helloword/src/main/java/com/chige/openfeign/config/SoupConfig.java
 r
 Bspring-boot-helloword/src/main/java/com/chige/DemoApplication.java,5\d\5d445616874da3678d88e8520bd7b3fe60f1e0e4
 z
-Jspring-boot-helloword/src/test/java/com/chige/controller/TestValidate.java,3\1\31138d75030983d285bde192586afbd78501cb90
-z
 Jspring-boot-mybatis/src/main/java/com/chige/openfeign/config/DBConfig.java,0\e\0ef3e814bc3de23c2b5d8e2a2b2aa174e6f5d1bc
 }
 Mspring-boot-mybatis/src/main/java/com/chige/openfeign/config/DBOneConfig.java,8\3\838c805b31abf7d069d52c15fcbf7005e1584104
@@ -203,5 +201,3 @@ y
 Ispring-boot-restful-curd/src/main/java/com/chige/common/ResponseCode.java,a/0/a013fb0298e8faeec2fa5d9828047af238d1e5dd
 t
 Dspring-boot-restful-curd/src/test/java/mock/GuestControllerTest.java,8/7/87d785493307ede48e4bbbd020c42a41e56c55cc
-‹
-[spring-annotation/src/main/java/com/chige/springannotation/SpringAnnotationApplication.java,f/c/fca3a54e0a8c7fadb35b39dbfacb424912525cb2

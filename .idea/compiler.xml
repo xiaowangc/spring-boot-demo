@@ -17,7 +17,6 @@
         <module name="spring-boot-es" />
         <module name="spring-boot-thymeleaf-curd" />
         <module name="spring-boot-jpa-dome" />
-        <module name="spring-boot-demo" />
         <module name="spring-boot-cache" />
         <module name="spring-boot-docker" />
         <module name="spring-boot-mybatis-demo" />
@@ -39,6 +38,7 @@
         <module name="spring-boot-error-exception" />
         <module name="eureka-client" />
         <module name="spring-annotation" />
+        <module name="hello-spring-boot-starter" />
         <module name="spring-boot-vue" />
         <module name="eureka-consumer" />
         <module name="spring-boot-duing-03-thymeleaf-crud" />
@@ -50,6 +50,7 @@
       <module name="eureka-client" target="8" />
       <module name="eureka-consumer" target="8" />
       <module name="eureka-server" target="8" />
+      <module name="hello-spring-boot-starter" target="8" />
       <module name="new-project-init" target="8" />
       <module name="retrying-demo" target="8" />
       <module name="spring-annotation" target="1.8" />
@@ -60,7 +61,7 @@
       <module name="spring-boot-duing-03-thymeleaf-crud" target="1.8" />
       <module name="spring-boot-error-exception" target="1.8" />
       <module name="spring-boot-es" target="8" />
-      <module name="spring-boot-helloword" target="1.8" />
+      <module name="spring-boot-helloword" target="8" />
       <module name="spring-boot-jpa-dome" target="1.8" />
       <module name="spring-boot-kafka" target="1.8" />
       <module name="spring-boot-mvc" target="8" />
@@ -72,7 +73,7 @@
       <module name="spring-boot-restful-demo" target="1.8" />
       <module name="spring-boot-swagger" target="1.8" />
       <module name="spring-boot-templete" target="1.8" />
-      <module name="spring-boot-thymeleaf-curd" target="1.8" />
+      <module name="spring-boot-thymeleaf-curd" target="8" />
       <module name="spring-boot-thymeleaf-curd (1)" target="1.8" />
       <module name="spring-boot-thymeleaf-curd2" target="1.8" />
       <module name="spring-boot-vue" target="1.8" />
@@ -90,8 +91,12 @@
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
+      <module name="hello-spring-boot-starter" options="-parameters" />
+      <module name="new-project-init" options="-parameters" />
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-boot-cache" options="-parameters" />
+      <module name="spring-boot-demo" options="-parameters" />
+      <module name="spring-boot-docker" options="-parameters" />
       <module name="spring-boot-dubbo" options="-parameters" />
       <module name="spring-boot-duing-03-thymeleaf-crud" options="-parameters" />
       <module name="spring-boot-error-exception" options="-parameters" />

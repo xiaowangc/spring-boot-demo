@@ -1,1 +1,9 @@
-
+read:
+  properties:
+    name: hello-starter
+    age: 1
+    friends: [ xiaoming, 小黑 ]
+    map: { key1: value1, key2: value2 }
+    person:
+      name: 小王
+      age: 18
