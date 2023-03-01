@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-boot-oss/Spring-boot-oss.iml" filepath="$PROJECT_DIR$/Spring-boot-oss/Spring-boot-oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/delayQueue/delayQueue.iml" filepath="$PROJECT_DIR$/delayQueue/delayQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/dozer-dome/dozer-dome.iml" filepath="$PROJECT_DIR$/dozer-dome/dozer-dome.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-nacos/nacos-client/nacos-client.iml" filepath="$PROJECT_DIR$/spring-boot-nacos/nacos-client/nacos-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/new-project-init/new-project-init.iml" filepath="$PROJECT_DIR$/new-project-init/new-project-init.iml" />
       <module fileurl="file://$PROJECT_DIR$/retrying-demo/retrying-demo.iml" filepath="$PROJECT_DIR$/retrying-demo/retrying-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
@@ -25,6 +27,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-nacos/spring-boot-nacos.iml" filepath="$PROJECT_DIR$/spring-boot-nacos/spring-boot-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-with-jedis/spring-boot-redis-with-jedis.iml" filepath="$PROJECT_DIR$/spring-boot-redis-with-jedis/spring-boot-redis-with-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-curd.iml" filepath="$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-curd.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-demo.iml" filepath="$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-demo.iml" />
@@ -34,6 +37,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-vue/spring-boot-vue.iml" filepath="$PROJECT_DIR$/spring-boot-vue/spring-boot-vue.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-openfeign/spring-cloud-openfeign.iml" filepath="$PROJECT_DIR$/spring-cloud-openfeign/spring-cloud-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-retry/spring-retry.iml" filepath="$PROJECT_DIR$/spring-retry/spring-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aopAndLog.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aopAndLog.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />

@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-openfeign" />
         <module name="retrying-demo" />
+        <module name="nacos-client" />
         <module name="spring-boot-mybatis-plus" />
         <module name="new-project-init" />
         <module name="spring-boot-templete" />
@@ -33,10 +34,12 @@
         <module name="spring-boot-mybatis" />
         <module name="springboot-aop" />
         <module name="spring-boot-kafka" />
+        <module name="spring-retry" />
         <module name="spring-boot-mvc" />
         <module name="spring-boot-swagger" />
         <module name="spring-boot-error-exception" />
         <module name="eureka-client" />
+        <module name="Spring-boot-oss" />
         <module name="spring-annotation" />
         <module name="hello-spring-boot-starter" />
         <module name="spring-boot-vue" />
@@ -51,6 +54,7 @@
       <module name="eureka-consumer" target="8" />
       <module name="eureka-server" target="8" />
       <module name="hello-spring-boot-starter" target="8" />
+      <module name="nacos-client" target="8" />
       <module name="new-project-init" target="8" />
       <module name="retrying-demo" target="8" />
       <module name="spring-annotation" target="1.8" />
@@ -68,6 +72,8 @@
       <module name="spring-boot-mybatis" target="1.8" />
       <module name="spring-boot-mybatis-demo" target="1.8" />
       <module name="spring-boot-mybatis-plus" target="1.8" />
+      <module name="spring-boot-nacos" target="8" />
+      <module name="Spring-boot-oss" target="1.8" />
       <module name="spring-boot-redis-with-jedis" target="1.8" />
       <module name="spring-boot-restful-curd" target="1.8" />
       <module name="spring-boot-restful-demo" target="1.8" />
@@ -79,6 +85,7 @@
       <module name="spring-boot-vue" target="1.8" />
       <module name="spring-cloud-eureka-demo" target="8" />
       <module name="spring-cloud-openfeign" target="8" />
+      <module name="spring-retry" target="8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-aopAndLog" target="1.8" />
       <module name="springboot-kafka" target="1.8" />
@@ -87,11 +94,13 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Spring-boot-oss" options="-parameters" />
       <module name="dozer-dome" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
       <module name="hello-spring-boot-starter" options="-parameters" />
+      <module name="nacos-client" options="-parameters" />
       <module name="new-project-init" options="-parameters" />
       <module name="spring-annotation" options="-parameters" />
       <module name="spring-boot-cache" options="-parameters" />
@@ -108,6 +117,7 @@
       <module name="spring-boot-mybatis" options="-parameters" />
       <module name="spring-boot-mybatis-demo" options="-parameters" />
       <module name="spring-boot-mybatis-plus" options="-parameters" />
+      <module name="spring-boot-nacos" options="-parameters" />
       <module name="spring-boot-redis-with-jedis" options="-parameters" />
       <module name="spring-boot-restful-curd" options="-parameters" />
       <module name="spring-boot-restful-demo" options="-parameters" />
@@ -119,6 +129,7 @@
       <module name="spring-boot-vue" options="-parameters" />
       <module name="spring-cloud-eureka-demo" options="-parameters" />
       <module name="spring-cloud-openfeign" options="-parameters" />
+      <module name="spring-retry" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-aopAndLog" options="-parameters" />
       <module name="springboot-kafka" options="-parameters" />

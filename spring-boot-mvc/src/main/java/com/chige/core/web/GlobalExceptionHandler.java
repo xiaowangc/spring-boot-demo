@@ -1,6 +1,7 @@
 package com.chige.core.web;
 
 
+import com.chige.exception.FileUploadException;
 import com.chige.exception.ServerException;
 import com.chige.response.CommonResult;
 import com.chige.response.ResponseCode;
@@ -24,10 +25,10 @@ public class GlobalExceptionHandler {
      * 处理 ServiceException 异常
      */
     @ResponseBody
-    @ExceptionHandler(value = ServerException.class)
-    public CommonResult serverExceptionHandler(HttpServletRequest request,ServerException serverException) {
-        logger.debug("serverException handler:",serverException);
-        return CommonResult.error(serverException.getCode(),serverException.getMessage());
+    @ExceptionHandler(value = {ServerException.class, FileUploadException.class})
+    public CommonResult serverExceptionHandler(HttpServletRequest request,Exception exception) {
+        logger.debug("serverException handler:",exception);
+        return CommonResult.error(-1, exception.getMessage());
     }
 
     /**

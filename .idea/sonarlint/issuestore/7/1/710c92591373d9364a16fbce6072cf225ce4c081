@@ -1,0 +1,17 @@
+
+[
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(®Ú¾ä
+]
+java:S1854!"BRemove this useless assignment to local variable "servletContext".(¨“µœþÿÿÿÿ
+\
+java:S1854"FRemove this useless assignment to local variable "httpServletRequest".(ô“ÕË
+M
+java:S1481"7Remove this unused "httpServletRequest" local variable.(ô“ÕË
+N
+java:S1481!"3Remove this unused "servletContext" local variable.(¨“µœþÿÿÿÿ
+l
+java:S1128	"VRemove this unused import 'org.springframework.web.context.request.RequestAttributes'.(¢“…°
+j
+java:S2259"OA "NullPointerException" could be thrown; "requestAttributes" is nullable here.(ñé»‘üÿÿÿÿ
+n
+java:S2259!"SA "NullPointerException" could be thrown; "webApplicationContext" is nullable here.(¨“µœþÿÿÿÿ

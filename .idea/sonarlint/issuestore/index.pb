@@ -17,8 +17,6 @@ l
 ispring-cloud-eureka-demo/eureka-server/src/main/java/com/chige/server/center/EurekaServerApplication.java,c\8\c8f608bb748c4bdd051f7f9d7128752d4f6e7526
 h
 8spring-cloud-eureka-demo/eureka-server/eureka-server.iml,7\f\7fc439c0da9876a3db77cb5fbb0a69afdaa227dd
-^
-.spring-cloud-eureka-demo/eureka-server/pom.xml,3\e\3e1195e340f77df5535dfc165378af9ae91d3014
 T
 $.idea/codeStyles/codeStyleConfig.xml,d\d\dd7b3350c29c49497756c7f32c69a3bed18b1cba
 L
@@ -33,16 +31,8 @@ Nspring-boot-helloword/src/main/java/com/chige/openfeign/config/FoodConfig.java
 Nspring-boot-helloword/src/main/java/com/chige/openfeign/config/SoupConfig.java,8\0\802c8aac4fe38b5194d4d87324efe3364189e2df
 r
 Bspring-boot-helloword/src/main/java/com/chige/DemoApplication.java,5\d\5d445616874da3678d88e8520bd7b3fe60f1e0e4
-z
-Jspring-boot-mybatis/src/main/java/com/chige/openfeign/config/DBConfig.java,0\e\0ef3e814bc3de23c2b5d8e2a2b2aa174e6f5d1bc
-}
-Mspring-boot-mybatis/src/main/java/com/chige/openfeign/config/DBOneConfig.java,8\3\838c805b31abf7d069d52c15fcbf7005e1584104
-}
-Mspring-boot-mybatis/src/main/java/com/chige/openfeign/config/DBTwoConfig.java,4\d\4df61d37bc4b81cc761086124d48bfb9be78aedf
 Ä
 Pspring-boot-redis-with-jedis/src/main/java/com/chige/exception/ResponseCode.java,1\2\1238150e043995358e43b9a77b4a7053d32e8c34
-ã
-[spring-boot-redis-with-jedis/src/main/java/com/chige/listDemo/service/RedpacketService.java,6\f\6f2adea33929d8fd5a2936fc158782996e3702d7
 â
 Yspring-boot-redis-with-jedis/src/main/java/com/chige/redistemplate/model/LikeRequest.java,b\2\b20f7817c216ec28d43f2ad20d1b6cbbfe8d8ab8
 |
@@ -73,8 +63,6 @@ Aspring-boot-templete/src/main/java/com/chige/MainApplication.java,b\f\bf7e0647
 -spring-boot-templete/spring-boot-templete.iml,1\a\1a52b3bd8c69525f61b279c356c143cf0aafa4f3
 á
 Wspring-boot-thymeleaf-curd/src/main/java/com/chige/openfeign/config/SecurityConfig.java,2\5\2578f2feb43b9f40280cd60042b73fb754b3db29
-P
- spring-cloud-eureka-demo/pom.xml,f\e\fe8a296012095ea43baa8b5f1030ed9aec7b956f
 e
 5spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml,0\b\0bfe181e96b631058c102856764bafc003efad51
 ê
@@ -113,8 +101,6 @@ x
 Hxxl-job/src/main/java/com/chige/xxl/demo/config/XxlJobConfiguration.java,c\9\c9741feca87a6b1e7491a34e2ecf91f0ade44ff9
 p
 @xxl-job/src/main/java/com/chige/xxl/demo/constanst/TestEnum.java,f\e\fe0af2ca33f2593e0fc6c1020aaa6bfb139af9c6
-l
-<xxl-job/src/main/java/com/chige/xxl/demo/task/CountTask.java,4\b\4b23dd7b6b66ec3aeb01747135bbd5b6479a5aaf
 h
 8xxl-job/src/main/java/com/chige/xxl/demo/test/Test1.java,c\7\c7b5a06fc1cef90c1b983ed50cb78ed0b1b1d824
 l
@@ -201,3 +187,13 @@ y
 Ispring-boot-restful-curd/src/main/java/com/chige/common/ResponseCode.java,a/0/a013fb0298e8faeec2fa5d9828047af238d1e5dd
 t
 Dspring-boot-restful-curd/src/test/java/mock/GuestControllerTest.java,8/7/87d785493307ede48e4bbbd020c42a41e56c55cc
+è
+_spring-boot-redis-with-jedis/src/main/java/com/chige/redistemplate/config/RedisCacheConfig.java,8/a/8a7675a9ff08f759b9676db33ea0602860b37de6
+G
+spring-boot-mvc/pom.xml,7/e/7e5ea4ef187963de06a2610a02ed0284d7a5c865
+r
+Bspring-boot-mvc/src/main/java/com/chige/response/CommonResult.java,9/c/9cdcd3b6c17715ef340a59bce9fee18f5ea137cb
+j
+:spring-boot-mvc/src/main/java/com/chige/entity/TestBO.java,b/0/b0c1c381b3a28280171ee0b7d4c63e55fd417cde
+è
+_spring-boot-nacos/nacos-client/src/main/java/com/chige/nacos/client/NacosClientApplication.java,7/1/710c92591373d9364a16fbce6072cf225ce4c081
