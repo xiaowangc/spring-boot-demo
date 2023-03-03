@@ -1,0 +1,38 @@
+#获取普通属性
+my:
+  properties:
+    maxVal: 100
+    minVal: 1
+    master: 99
+    home1:
+      userName: abc
+      age: 10
+    home2:
+      userName: dfd
+      age: 20
+
+# 将属性写进列表
+mylist:
+  list: [ ha,2,3,4 ]
+  list2: haha,2,3,4
+  list3: ${UserNameList}
+
+# 将属性写入map
+map1:
+  map:
+    userName: pipi
+    age: 10
+  doubleMap:
+    home1:
+      userName: nini
+      age: 19
+    home2:
+      userName: xiaoli
+      age: 18
+
+
+UserNameList: hah,1,2,3,4
+
+user:
+  name: nibi
+  age: 19

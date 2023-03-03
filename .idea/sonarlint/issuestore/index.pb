@@ -111,8 +111,6 @@ B
 xxl-job/pom.xml,2\6\26a7f782c981f41f4e5e616e0921342e3bfb729e
 C
 xxl-job/xxl-job.iml,d\8\d823279347a6ffa840ed352c430059468775d4cd
-}
-Mspring-boot-mybatis/src/main/java/com/chige/SpringBootMybatisApplication.java,d\5\d5305bb61fa5f6484fa2abc65c3bf823f747acec
 f
 6.idea/libraries/Maven__joda_time_joda_time_2_10_10.xml,8\b\8bbb71a7144789c27ad76045579829ed999a39d1
 f

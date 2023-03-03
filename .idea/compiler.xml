@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-openfeign" />
+        <module name="spring-config-load" />
         <module name="retrying-demo" />
         <module name="nacos-client" />
         <module name="spring-boot-mybatis-plus" />
@@ -24,6 +25,7 @@
         <module name="spring-boot-restful-demo" />
         <module name="spring-boot-restful-curd" />
         <module name="spring-boot-redis-with-jedis" />
+        <module name="dynamicDatasource" />
         <module name="delayQueue" />
         <module name="springboot-kafka" />
         <module name="spring-boot-thymeleaf-curd (1)" />
@@ -50,6 +52,7 @@
     <bytecodeTargetLevel>
       <module name="delayQueue" target="8" />
       <module name="dozer-dome" target="8" />
+      <module name="dynamicDatasource" target="1.8" />
       <module name="eureka-client" target="8" />
       <module name="eureka-consumer" target="8" />
       <module name="eureka-server" target="8" />
@@ -80,11 +83,10 @@
       <module name="spring-boot-swagger" target="1.8" />
       <module name="spring-boot-templete" target="1.8" />
       <module name="spring-boot-thymeleaf-curd" target="8" />
-      <module name="spring-boot-thymeleaf-curd (1)" target="1.8" />
-      <module name="spring-boot-thymeleaf-curd2" target="1.8" />
       <module name="spring-boot-vue" target="1.8" />
       <module name="spring-cloud-eureka-demo" target="8" />
       <module name="spring-cloud-openfeign" target="8" />
+      <module name="spring-config-load" target="8" />
       <module name="spring-retry" target="8" />
       <module name="springboot-aop" target="1.8" />
       <module name="springboot-aopAndLog" target="1.8" />
@@ -96,6 +98,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-boot-oss" options="-parameters" />
       <module name="dozer-dome" options="-parameters" />
+      <module name="dynamicDatasource" options="-parameters" />
       <module name="eureka-client" options="-parameters" />
       <module name="eureka-consumer" options="-parameters" />
       <module name="eureka-server" options="-parameters" />
@@ -124,11 +127,10 @@
       <module name="spring-boot-swagger" options="-parameters" />
       <module name="spring-boot-templete" options="-parameters" />
       <module name="spring-boot-thymeleaf-curd" options="-parameters" />
-      <module name="spring-boot-thymeleaf-curd (1)" options="-parameters" />
-      <module name="spring-boot-thymeleaf-curd2" options="-parameters" />
       <module name="spring-boot-vue" options="-parameters" />
       <module name="spring-cloud-eureka-demo" options="-parameters" />
       <module name="spring-cloud-openfeign" options="-parameters" />
+      <module name="spring-config-load" options="-parameters" />
       <module name="spring-retry" options="-parameters" />
       <module name="springboot-aop" options="-parameters" />
       <module name="springboot-aopAndLog" options="-parameters" />

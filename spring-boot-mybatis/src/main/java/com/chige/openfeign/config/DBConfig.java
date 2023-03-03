@@ -22,4 +22,10 @@ public class DBConfig {
         return DataSourceBuilder.create().build();
     }
 
+    @Bean(name = "db3")
+    @ConfigurationProperties("spring.datasource.db3")
+    public DataSource dataSource3(){
+        return DataSourceBuilder.create().build();
+    }
+
 }

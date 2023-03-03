@@ -18,6 +18,7 @@
         <module>hello-spring-boot-starter</module>
         <module>spring-boot-nacos</module>
         <module>spring-retry</module>
+        <module>spring-config-load</module>
     </modules>
 
     <properties>

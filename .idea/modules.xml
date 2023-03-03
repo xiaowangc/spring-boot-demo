@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Spring-boot-oss/Spring-boot-oss.iml" filepath="$PROJECT_DIR$/Spring-boot-oss/Spring-boot-oss.iml" />
       <module fileurl="file://$PROJECT_DIR$/delayQueue/delayQueue.iml" filepath="$PROJECT_DIR$/delayQueue/delayQueue.iml" />
       <module fileurl="file://$PROJECT_DIR$/dozer-dome/dozer-dome.iml" filepath="$PROJECT_DIR$/dozer-dome/dozer-dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dynamicDatasource/dynamicDatasource.iml" filepath="$PROJECT_DIR$/dynamicDatasource/dynamicDatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" />
@@ -37,6 +38,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-vue/spring-boot-vue.iml" filepath="$PROJECT_DIR$/spring-boot-vue/spring-boot-vue.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-openfeign/spring-cloud-openfeign.iml" filepath="$PROJECT_DIR$/spring-cloud-openfeign/spring-cloud-openfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-config-load/spring-config-load.iml" filepath="$PROJECT_DIR$/spring-config-load/spring-config-load.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-retry/spring-retry.iml" filepath="$PROJECT_DIR$/spring-retry/spring-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aopAndLog.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aopAndLog.iml" />

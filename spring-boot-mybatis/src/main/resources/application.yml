@@ -13,5 +13,32 @@ spring:
       jdbc-url: jdbc:mysql://localhost:3306/springboot_test2?serverTimezone=CST
       password: 123.com
       username: root
-
-
+    db3:
+      #springboot_test2作为备库
+      jdbc-url: jdbc:mysql://localhost:3306/mybatis_demo?serverTimezone=CST
+      password: 123.com
+      username: root
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      web-stat-filter:
+        enabled: true     # 启用 WebStatFilter
+        url-pattern: /*   # 配置拦截规则
+        exclusions: "*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*"   # 排除一些不必要的 url，这些 URL 不会涉及到 SQL 查询
+        session-stat-enable: true   # 开启 session 统计功能
+        session-stat-max-count: 1000  # 缺省 sessionStatMaxCount 是 1000 个，我们可以按需要进行配置
+        profile-enable: true
+      stat-view-servlet:
+        enabled: true # 启用内置的监控页面
+        url-pattern: /druid/* # 内置监控页面的地址
+        reset-enable: true # 开启 Reset All 功能
+        login-username: chige # 设置登录用户名
+        login-password: 123 # 设置登录密码
+        allow: 127.0.0.1 # 白名单（如果allow没有配置或者为空，则允许所有访问）
+        #deny:  # 黑名单（deny 优先于 allow，如果在 deny 列表中，就算在 allow 列表中，也会被拒绝）
+# 配置 principalSessionName，使得 druid 能够知道当前的 session 的用户是谁
+# 根据需要，这个参数的值是 user 信息保存在 session 中的 sessionName
+#spring.datasource.druid.web-stat-filter.principal-session-name=
+# 下面这个配置的作用和上面配置的作用类似，这个是通过 Cookie 来识别用户
+#spring.datasource.druid.web-stat-filter.principal-cookie-name=
+# 开启 profile 后就能够监控单个 URL 地址调用列表
+#spring.datasource.druid.web-stat-filter.

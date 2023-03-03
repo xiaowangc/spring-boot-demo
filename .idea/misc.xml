@@ -34,6 +34,7 @@
         <option value="$PROJECT_DIR$/spring-boot-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Spring-boot-oss/pom.xml" />
+        <option value="$PROJECT_DIR$/dynamicDatasource/pom.xml" />
       </list>
     </option>
   </component>
