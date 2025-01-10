@@ -1,0 +1,19 @@
+
+E
+java:S37403"/Provide the parametrized type for this generic.(§Ğ˜Ô
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(á€á™
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(›ÈØéşÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(ÛÁƒ©ùÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(¯Ôª
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ÆÛßÏøÿÿÿÿ
+M	java:S106I"9Replace this use of System.out or System.err by a logger.(şò†9
+t
+java:S2142^"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+^
+java:S2276Z"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(»ãßºøÿÿÿÿ
+a
+java:S1128"DRemove this unused import 'org.apache.commons.lang3.time.DateUtils'.(½ç8ù ÿƒˆ1
+f
+java:S11921"PDefine a constant instead of duplicating this literal "çº¿ç¨‹åç§°ï¼š" 6 times.(á€á™
+\
+java:S11923"FDefine a constant instead of duplicating this literal "order" 3 times.(§Ğ˜Ô

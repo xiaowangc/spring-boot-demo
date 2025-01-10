@@ -1,0 +1,7 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(­ÊøÊ
+N	java:S106)"9Replace this use of System.out or System.err by a logger.(İÙ»î
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ıÑ˜Ôûÿÿÿÿ
+]	java:S125<"<This block of commented-out lines of code should be removed.(¦ïĞ»ûÿÿÿÿ8Èµ‚ˆ1
+a
+java:S1192"FDefine a constant instead of duplicating this literal "order" 3 times.(Ó’”ùÿÿÿÿ

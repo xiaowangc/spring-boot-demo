@@ -1,0 +1,11 @@
+
+„
+java:S1488"bImmediately return this expression instead of assigning it to the temporary variable "dataSource".(¢üéãÿÿÿÿÿ8½Öéï¸1
+†
+java:S1488%"iImmediately return this expression instead of assigning it to the temporary variable "modeConfiguration".(´ıÊØ8½Öéï¸1
+—
+java:S1128"zRemove this unused import 'org.apache.shardingsphere.mode.repository.standalone.StandalonePersistRepositoryConfiguration'.(³Ÿ”Î8Ë°’ğ¸1
+
+java:S1128"nRemove this unused import 'org.apache.shardingsphere.sharding.api.config.rule.ShardingTableRuleConfiguration'.(ŠÆÇãûÿÿÿÿ8Ø’ğ¸1
+l
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›8Ë°’ğ¸1

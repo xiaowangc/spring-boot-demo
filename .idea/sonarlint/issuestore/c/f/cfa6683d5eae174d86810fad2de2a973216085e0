@@ -1,0 +1,12 @@
+
+n	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(®λφ+
+n
+java:S1450'"SRemove the "type" field and declare it as a local variable in the relevant methods.(ƒΰφωÿÿÿÿ
+C
+java:S1068'"(Remove this unused "type" private field.(ƒΰφωÿÿÿÿ
+H
+java:S1068L"-Remove this unused "maxHeight" private field.(ε«Ο€ύÿÿÿÿ
+D
+java:S1068P".Remove this unused "statistics" private field.(‰Òκƒ
+D
+java:S1068Y")Remove this unused "clazz" private field.(²ξ­Γÿÿÿÿÿ

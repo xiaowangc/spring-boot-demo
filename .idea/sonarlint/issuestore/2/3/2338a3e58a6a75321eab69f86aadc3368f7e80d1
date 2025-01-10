@@ -1,0 +1,6 @@
+
+p
+java:S1450"SRemove the "list" field and declare it as a local variable in the relevant methods.(È…÷œ8è¡áè²1
+L	java:S106"+Replace this use of System.out by a logger.(Ì‚¬¬üÿÿÿÿ8ë¡áè²1
+G	java:S106"+Replace this use of System.out by a logger.(ÇáöÃ8öÀâè²1
+L	java:S106"+Replace this use of System.out by a logger.(±ĞÜœûÿÿÿÿ8¬ì…é²1

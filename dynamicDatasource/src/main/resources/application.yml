@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: druid
+    active: ds
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml

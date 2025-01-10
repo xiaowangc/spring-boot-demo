@@ -1,0 +1,19 @@
+
+{
+java:S2293:"YReplace the type specification in this constructor call with the diamond operator ("<>").(‹πÇ∆¸ˇˇˇˇ8¸≥Ï¥†1
+d
+java:S2259:"BA "NullPointerException" could be thrown; "baos" is nullable here.(‹πÇ∆¸ˇˇˇˇ8ë¥Ï¥†1
+l
+java:S2095+"JUse try-with-resources or close this "HSSFWorkbook" in a "finally" clause.(–≈±Ã¯ˇˇˇˇ8ë¥Ï¥†1
+N
+java:S1135"2Complete the task associated to this TODO comment.(ı”´8ï¥Ï¥†1
+j
+java:S4488"HReplace "@RequestMapping(method = RequestMethod.GET)" with "@GetMapping"(Â«û˜˙ˇˇˇˇ8ó¥Ï¥†1
+\
+java:S1118&":Add a private constructor to hide the implicit public one.(∏ÔÇ¡˝ˇˇˇˇ8ö¥Ï¥†1
+M
+java:S1172("+Remove this unused method parameter "emps".(æáòË˘ˇˇˇˇ8õ¥Ï¥†1
+[
+java:S47193">Replace charset name argument with StandardCharsets.ISO_8859_1(„Ó¶Ú8¢¥Ï¥†1
+V
+java:S47193"9Replace charset name argument with StandardCharsets.UTF_8(„Ó¶Ú8¢¥Ï¥†1

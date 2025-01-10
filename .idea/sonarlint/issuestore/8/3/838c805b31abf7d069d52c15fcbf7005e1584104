@@ -1,0 +1,5 @@
+
+v
+java:S1488!"`Immediately return this expression instead of assigning it to the temporary variable "template".(œÕý´
+o
+java:S3305"YInject this field value directly into "sqlSessionFactory1", the only method that uses it.(â–ŠÐ

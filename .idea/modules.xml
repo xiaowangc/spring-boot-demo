@@ -3,24 +3,27 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Spring-boot-oss/Spring-boot-oss.iml" filepath="$PROJECT_DIR$/Spring-boot-oss/Spring-boot-oss.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-utils/common-utils.iml" filepath="$PROJECT_DIR$/common-utils/common-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common.model/common.model.iml" filepath="$PROJECT_DIR$/common.model/common.model.iml" />
       <module fileurl="file://$PROJECT_DIR$/delayQueue/delayQueue.iml" filepath="$PROJECT_DIR$/delayQueue/delayQueue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distributedlock/distributedlock.iml" filepath="$PROJECT_DIR$/distributedlock/distributedlock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common-sdk/door-spring-boot-starter/door-spring-boot-starter.iml" filepath="$PROJECT_DIR$/common-sdk/door-spring-boot-starter/door-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/dozer-dome/dozer-dome.iml" filepath="$PROJECT_DIR$/dozer-dome/dozer-dome.iml" />
-      <module fileurl="file://$PROJECT_DIR$/dynamicDatasource/dynamicDatasource.iml" filepath="$PROJECT_DIR$/dynamicDatasource/dynamicDatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-client/eureka-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-consumer/eureka-consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" filepath="$PROJECT_DIR$/hello-spring-boot-starter/hello-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-nacos/nacos-client/nacos-client.iml" filepath="$PROJECT_DIR$/spring-boot-nacos/nacos-client/nacos-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/new-project-init/new-project-init.iml" filepath="$PROJECT_DIR$/new-project-init/new-project-init.iml" />
-      <module fileurl="file://$PROJECT_DIR$/retrying-demo/retrying-demo.iml" filepath="$PROJECT_DIR$/retrying-demo/retrying-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-annotation/spring-annotation.iml" filepath="$PROJECT_DIR$/spring-annotation/spring-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" filepath="$PROJECT_DIR$/spring-boot-cache/spring-boot-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-casbin/spring-boot-casbin.iml" filepath="$PROJECT_DIR$/spring-boot-casbin/spring-boot-casbin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-docker/spring-boot-docker.iml" filepath="$PROJECT_DIR$/spring-boot-docker/spring-boot-docker.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo.iml" filepath="$PROJECT_DIR$/spring-boot-dubbo/spring-boot-dubbo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/spring-boot-duing-03-thymeleaf-crud.iml" filepath="$PROJECT_DIR$/spring-boot-duing-03-thymeleaf-crud3/spring-boot-duing-03-thymeleaf-crud.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-error-exception/spring-boot-error-exception.iml" filepath="$PROJECT_DIR$/spring-boot-error-exception/spring-boot-error-exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-es/spring-boot-es.iml" filepath="$PROJECT_DIR$/spring-boot-es/spring-boot-es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-excel/spring-boot-excel.iml" filepath="$PROJECT_DIR$/spring-boot-excel/spring-boot-excel.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-helloword/spring-boot-helloword.iml" filepath="$PROJECT_DIR$/spring-boot-helloword/spring-boot-helloword.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jpa-dome/spring-boot-jpa-dome.iml" filepath="$PROJECT_DIR$/spring-boot-jpa-dome/spring-boot-jpa-dome.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-kafka/spring-boot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/spring-boot-kafka.iml" />
@@ -28,7 +31,6 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis/spring-boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-demo/spring-boot-mybatis-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-plus/spring-boot-mybatis-plus.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-nacos/spring-boot-nacos.iml" filepath="$PROJECT_DIR$/spring-boot-nacos/spring-boot-nacos.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-redis-with-jedis/spring-boot-redis-with-jedis.iml" filepath="$PROJECT_DIR$/spring-boot-redis-with-jedis/spring-boot-redis-with-jedis.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-curd.iml" filepath="$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-curd.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-demo.iml" filepath="$PROJECT_DIR$/spring-boot-restful-curd/spring-boot-restful-demo.iml" />
@@ -36,13 +38,13 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-templete/spring-boot-templete.iml" filepath="$PROJECT_DIR$/spring-boot-templete/spring-boot-templete.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-thymeleaf-curd/spring-boot-thymeleaf-curd.iml" filepath="$PROJECT_DIR$/spring-boot-thymeleaf-curd/spring-boot-thymeleaf-curd.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-vue/spring-boot-vue.iml" filepath="$PROJECT_DIR$/spring-boot-vue/spring-boot-vue.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml" filepath="$PROJECT_DIR$/spring-cloud-eureka-demo/spring-cloud-eureka-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-openfeign/spring-cloud-openfeign.iml" filepath="$PROJECT_DIR$/spring-cloud-openfeign/spring-cloud-openfeign.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-config-load/spring-config-load.iml" filepath="$PROJECT_DIR$/spring-config-load/spring-config-load.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-retry/spring-retry.iml" filepath="$PROJECT_DIR$/spring-retry/spring-retry.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aop.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aop.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-aop/springboot-aopAndLog.iml" filepath="$PROJECT_DIR$/springboot-aop/springboot-aopAndLog.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" filepath="$PROJECT_DIR$/springboot-kafka/springboot-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statemachine/statemachine.iml" filepath="$PROJECT_DIR$/statemachine/statemachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/xxl-job/xxl-job.iml" filepath="$PROJECT_DIR$/xxl-job/xxl-job.iml" />
     </modules>
   </component>

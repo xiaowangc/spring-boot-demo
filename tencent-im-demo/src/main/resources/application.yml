@@ -1,0 +1,8 @@
+
+
+logging:
+  config: classpath:logback-spring-dev.xml
+  file: log
+  level:
+    mapper:
+      '*': debug

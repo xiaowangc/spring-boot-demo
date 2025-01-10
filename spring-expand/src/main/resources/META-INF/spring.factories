@@ -1,0 +1,3 @@
+com.chige.expand.initializer.PropertySourceInitializer
+com.chige.expand.initializer.EnvironmentInitializer
+com.chige.expand.initializer.CustomBeanFactoryPostProcessorInitializer

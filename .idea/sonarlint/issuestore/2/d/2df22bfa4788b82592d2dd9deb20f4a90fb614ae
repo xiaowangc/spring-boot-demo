@@ -1,0 +1,13 @@
+
+L
+java:S1172"0Remove this unused method parameter "sheetName".(¦—Šb8öúÙ 1
+e
+java:S3252 "HUse static access with "com.alibaba.excel.EasyExcelFactory" for "write".(ıÿ‰Ã8÷úÙ 1
+£
+java:S1186,"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‹ˆã«ıÿÿÿÿ8ŸÜ 1
+£
+java:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¼İ›‚øÿÿÿÿ8ŸÜ 1
+£
+java:S11866"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¿œ³ıÿÿÿÿ8ŸÜ 1
+
+java:S1186;"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ãÂ˜=8ŸÜ 1

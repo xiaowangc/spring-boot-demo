@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://dozer.sourceforge.net"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+    <mapping wildcard="false" map-null="false">
+        <class-a>com.chige.dozer.domain.Person</class-a>
+        <class-b>com.chige.dozer.domain.User</class-b>
+        <field>
+            <a>sex</a>
+            <b>gender</b>
+            <a-hint>java.lang.Integer</a-hint>
+            <b-hint>java.lang.String</b-hint>
+        </field>
+        <field>
+            <a>userId</a>
+            <b>userId</b>
+        </field>
+        <field>
+            <a>idType</a>
+            <b>idType</b>
+        </field>
+        <field>
+            <a>trueName</a>
+            <b>trueName</b>
+        </field>
+    </mapping>
+</mappings>

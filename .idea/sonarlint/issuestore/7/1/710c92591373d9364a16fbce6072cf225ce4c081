@@ -1,4 +1,8 @@
 
+j
+java:S2259"OA "NullPointerException" could be thrown; "requestAttributes" is nullable here.(ρι»‘όÿÿÿÿ
+n
+java:S2259!"SA "NullPointerException" could be thrown; "webApplicationContext" is nullable here.(¨“µώÿÿÿÿ
 [
 java:S1124"EReorder the modifiers to comply with the Java Language Specification.(®ΪΎδ
 ]
@@ -11,7 +15,3 @@ N
 java:S1481!"3Remove this unused "servletContext" local variable.(¨“µώÿÿÿÿ
 l
 java:S1128	"VRemove this unused import 'org.springframework.web.context.request.RequestAttributes'.(Ά“…°
-j
-java:S2259"OA "NullPointerException" could be thrown; "requestAttributes" is nullable here.(ρι»‘όÿÿÿÿ
-n
-java:S2259!"SA "NullPointerException" could be thrown; "webApplicationContext" is nullable here.(¨“µώÿÿÿÿ
